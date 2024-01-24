@@ -1,13 +1,21 @@
-import "./index.css";
 import Header from "./components/Header";
-import Main from "./components/Main";
 import Footer from "./components/Footer";
+import AboutSection from "./components/AboutSection";
+import EducationSection from "./components/EducationSection";
+import ProjectsSection from "./components/ProjectsSection";
+import SkillsSection from "./components/SkillsSection";
+import "./index.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <main className="h-screen flex flex-col justify-between">
+        <AboutSection />
+        <SkillsSection />
+        <EducationSection />
+        <ProjectsSection />
+      </main>
       <Footer />
     </>
   );
