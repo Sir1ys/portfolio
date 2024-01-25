@@ -14,7 +14,7 @@ export default function SkillsBox({ skillsInfo, styles }) {
           return (
             <div
               key={skill.name}
-              className="flex flex-col justify-center items-center gap-2 p-2 border w-28 h-28 rounded-3xl"
+              className="flex flex-col justify-center items-center gap-2 p-2 border w-28 h-28 rounded-3xl hover:scale-105 cursor-pointer"
             >
               <span className="text-emerald-100">{skill.name}</span>
               <img

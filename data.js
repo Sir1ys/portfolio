@@ -23,6 +23,8 @@ import Git from "./src/images/others/Git.png";
 import GitHub from "./src/images/others/GitHub.png";
 import Netlify from "./src/images/others/Netlify.png";
 
+import Northcoders from "./src/images/education/northcoders.jpeg";
+
 export const bio = {
   name: "Oleksandr Korovii",
   roles: ["Full Stack Developer"],
@@ -143,7 +145,7 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://drive.google.com/file/d/1cIJwMHk4Ad4pcOsPTI9oBRao8AGLNo-b/view?usp=drive_link",
+    img: Northcoders,
     school: "Northcoders, Manchester",
     date: "Aug 2023 - Nov 2023",
     desc: "While at Northcoders, I practiced paired programming with Agile methodologies. I gained modern software development skills through collaborative coding, iterative development, and a test-driven approach in web application development. Proficient in constructing web servers, I effectively worked with various databases. Additionally, I mastered the React framework, utilizing its features adeptly.",
