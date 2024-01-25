@@ -3,7 +3,7 @@ import { bio } from "../../data";
 import MyPicture from "../images/about/portfolio.jpg";
 import ProfileIcon from "./ProfileIcon";
 
-const icons = [
+export const icons = [
   { text: "LinkedIn", link: bio.linkedin },
   { text: "CV", link: bio.resume },
   { text: "GitHub", link: bio.github },
@@ -16,7 +16,9 @@ export default function AboutSection() {
       className="w-11/12 xl:w-8/12 text-center flex items-center justify-between gap-4 p-8 flex-col md:flex-row border-b-4 border-emerald-700"
     >
       <div className="flex-1 order-last md:order-first flex flex-col gap-4 text-center md:text-left">
-        <h2 className="text-emerald-50 font-bold text-5xl">{bio.name}</h2>
+        <h2 className="text-emerald-50 font-bold text-5xl tracking-wider">
+          {bio.name}
+        </h2>
         <h3 className="text-emerald-100 font-bold text-3xl">
           I'm a <span className="text-emerald-300">{bio.roles}</span>
         </h3>

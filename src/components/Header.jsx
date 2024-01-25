@@ -3,7 +3,7 @@ import PublicIcon from "@mui/icons-material/Public";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
-const links = [
+export const links = [
   {
     text: "About",
     path: "#about",
@@ -26,8 +26,8 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="p-10 md:flex md:flex-row md:justify-between border-b-4 border-emerald-400 bg-emerald-50">
-      <div className="flex items-center gap-2 text-emerald-600 hover:text-emerald-800">
+    <header className="p-10 md:flex md:flex-row md:justify-between border-b-4 border-emerald-400 bg-emerald-800">
+      <div className="flex items-center gap-2 text-emerald-100 hover:text-emerald-200">
         <PublicIcon />
         <a href={links[0].path} className="font-semibold text-2xl">
           Portfolio
@@ -41,15 +41,15 @@ export default function Header() {
           }}
         >
           {!open ? (
-            <MenuIcon fontSize="large" className="text-emerald-800" />
+            <MenuIcon fontSize="large" className="text-emerald-100" />
           ) : (
-            <CloseIcon fontSize="large" className="text-emerald-800" />
+            <CloseIcon fontSize="large" className="text-emerald-100" />
           )}
         </div>
         <ul
           className={`flex gap-8 absolute md:static bg-emerald-50 md:bg-inherit md:z-auto z-[2] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in ${
             open
-              ? "top-20 opacity-100 border-b-4 border-emerald-700 h-screen overflow-hidden flex-col mt-4"
+              ? "bg-emerald-900 top-25 opacity-100 border-y-4 border-emerald-700 h-screen overflow-hidden flex-col mt-10 pt-4"
               : "left-[-490px] opacity-0"
           } md:opacity-100 md:border-none`}
         >
@@ -58,8 +58,9 @@ export default function Header() {
               <li
                 key={index}
                 className={
-                  "text-emerald-600 font-semibold text-2xl hover:text-emerald-800 hover:underline hover:underline-offset-4"
+                  "font-semibold text-2xl text-emerald-100 hover:text-emerald-200 hover:underline hover:underline-offset-4"
                 }
+                onClick={() => setOpen(false)}
               >
                 <a href={link.path}>{link.text}</a>
               </li>
