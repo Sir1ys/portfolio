@@ -4,9 +4,9 @@ export default function SkillsBox({ skillsInfo, styles }) {
   const { title, skills } = skillsInfo;
   return (
     <div
-      className={`${styles} flex flex-col justify-start items-center gap-6 bg-emerald-700 rounded-3xl p-8 border-2 border-emerald-300 shadow-xl`}
+      className={`${styles} flex flex-col justify-start items-center gap-6 bg-emerald-900 rounded-3xl p-8 border-2 border-emerald-300 shadow-xl`}
     >
-      <h3 className="font-medium text-white text-2xl tracking-wider mb-8">
+      <h3 className="font-medium text-white text-2xl tracking-wider">
         {title}
       </h3>
       <div className="flex gap-4 flex-wrap justify-center items-center">

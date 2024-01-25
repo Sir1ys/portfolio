@@ -4,7 +4,7 @@ import { skills } from "../../data";
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="w-11/12 xl:w-7/12 text-center">
+    <section id="skills" className="w-11/12 xl:w-8/12 text-center">
       <h2 className="font-semibold text-white text-4xl tracking-widest mb-4">
         Skills
       </h2>

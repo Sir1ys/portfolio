@@ -23,7 +23,7 @@ import Git from "./src/images/others/Git.png";
 import GitHub from "./src/images/others/GitHub.png";
 import Netlify from "./src/images/others/Netlify.png";
 
-export const Bio = {
+export const bio = {
   name: "Oleksandr Korovii",
   roles: ["Full Stack Developer"],
   description:
