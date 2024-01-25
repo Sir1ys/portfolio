@@ -26,7 +26,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="p-10 md:flex md:flex-row md:justify-between border-b-4 border-emerald-400 bg-emerald-800">
+    <header className="p-10 md:flex md:flex-row md:justify-around border-b-4 border-emerald-400 bg-emerald-800">
       <div className="flex items-center gap-2 text-emerald-100 hover:text-emerald-200">
         <PublicIcon />
         <a href={links[0].path} className="font-semibold text-2xl">

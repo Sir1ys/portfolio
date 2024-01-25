@@ -29,7 +29,7 @@ export const bio = {
   name: "Oleksandr Korovii",
   roles: ["Full Stack Developer"],
   description:
-    "Driven by ambition and a deep passion for working with computers, I've taken proactive measures to pivot my career path towards becoming a developer. My progress and achievements since embarking on this tech journey highlight my potential, fueling my motivation to persistently learn and expand my skills. Engaging in paired programming, I adeptly followed Agile ethodologies and embraced Test-Driven Development (TDD) as integral components of my practical experience",
+    "Driven by ambition and a deep passion for working with computers, I've taken proactive measures to pivot my career path towards becoming a developer. My progress and achievements since embarking on this tech journey highlight my potential, fueling my motivation to persistently learn and expand my skills. Engaging in paired programming, I adeptly followed Agile ethodologies and embraced Test-Driven Development (TDD) as integral components of my practical experience.",
   github: "https://github.com/Sir1ys",
   resume:
     "https://drive.google.com/file/d/1MG2F8FYyK2SSfSTwDHJW5aiQyi2d-Sy5/view?usp=drive_link",

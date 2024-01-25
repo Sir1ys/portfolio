@@ -32,7 +32,7 @@ export default function AboutSection() {
       <img
         src={MyPicture}
         alt="This is the picture of me."
-        className="w-64 h-64 rounded-full"
+        className="w-72 h-72 rounded-full shadow-2xl border-2 border-emerald-50"
       />
     </section>
   );
