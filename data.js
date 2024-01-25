@@ -1,3 +1,28 @@
+import CSS from "./src/images/front-end/CSS.png";
+import HTML from "./src/images/front-end/HTML.png";
+import JS from "./src/images/front-end/JS.png";
+import MUI from "./src/images/front-end/MUI.png";
+import React from "./src/images/front-end/React.jpg";
+import ReactNative from "./src/images/front-end/ReactNative.jpg";
+import Redux from "./src/images/front-end/Redux.jpg";
+import Sass from "./src/images/front-end/Sass.png";
+import Tailwind from "./src/images/front-end/Tailwind.png";
+
+import Axios from "./src/images/back-end/Axios.png";
+import Express from "./src/images/back-end/Express.jpg";
+import Firebase from "./src/images/back-end/Firebase.png";
+import Jest from "./src/images/back-end/Jest.png";
+import MongoDB from "./src/images/back-end/MongoDB.jpg";
+import NodeJs from "./src/images/back-end/NodeJs.jpg";
+import PSQL from "./src/images/back-end/PSQL.png";
+import ValidateJS from "./src/images/back-end/ValidateJS.png";
+
+import CloudFlare from "./src/images/others/CloudFlare.png";
+import Figma from "./src/images/others/Figma.jpg";
+import Git from "./src/images/others/Git.png";
+import GitHub from "./src/images/others/GitHub.png";
+import Netlify from "./src/images/others/Netlify.png";
+
 export const Bio = {
   name: "Oleksandr Korovii",
   roles: ["Full Stack Developer"],
@@ -15,48 +40,39 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image:
-          "https://drive.google.com/file/d/1-kij11FIH1LagMwiNoVCcTz3kx61FAdn/view?usp=drive_link",
+        image: React,
       },
       {
         name: "React Native",
-        image:
-          "https://drive.google.com/file/d/15A0eDmkgEjGGQc732ZOsW0Pfyx4iyfdR/view?usp=drive_link",
+        image: ReactNative,
       },
       {
         name: "JavaScript",
-        image:
-          "https://drive.google.com/file/d/1VdJD6HmC4nI2yVeZ7f1JlHpqfm3Gm3_q/view?usp=drive_link",
+        image: JS,
       },
       {
         name: "Redux",
-        image:
-          "https://drive.google.com/file/d/1bkHdMwezpIMeqajyWyqnKCKiLBUFO5FB/view?usp=drive_link",
+        image: Redux,
       },
       {
         name: "Material UI",
-        image:
-          "https://drive.google.com/file/d/1AjBsOOHrV8YYfy6cuMkp_8xS1R8eRHdg/view?usp=drive_link",
+        image: MUI,
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://drive.google.com/file/d/1sdHGfNNV_4xPG7lAe4tr4k8-ZVP69mUJ/view?usp=drive_link",
+        image: Tailwind,
       },
       {
         name: "Sass",
-        image:
-          "https://drive.google.com/file/d/1ZBrg6HPSyKsyG5jCd_72lI6CXrVI9i4Q/view?usp=drive_link",
+        image: Sass,
       },
       {
         name: "CSS",
-        image:
-          "https://drive.google.com/file/d/1-OerRQ20YjW8PXBENjtYkJjiiInj8pR9/view?usp=drive_link",
+        image: CSS,
       },
       {
         name: "HTML",
-        image:
-          "https://drive.google.com/file/d/1dgoMkpDlkkpPLVTdlMalHlW3FcjX4WFO/view?usp=drive_link",
+        image: HTML,
       },
     ],
   },
@@ -65,43 +81,35 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image:
-          "https://drive.google.com/file/d/1nMAoLD9Fc4oPzsmHnPlQcE5eTapl_zWg/view?usp=drive_link",
+        image: NodeJs,
       },
       {
         name: "Express Js",
-        image:
-          "https://drive.google.com/file/d/1gXGL7fez92geK-h09YmK_1ywYthqiOIx/view?usp=drive_link",
+        image: Express,
       },
       {
         name: "Jest",
-        image:
-          "https://drive.google.com/file/d/1Ruyy9iS4SUQeGAPY5x0SNKt82_r_kedi/view?usp=drive_link",
+        image: Jest,
       },
       {
         name: "Postgresql",
-        image:
-          "https://drive.google.com/file/d/1tEJwut7WH7PR3I6REoVNRUu6nMoIHdkq/view?usp=drive_link",
+        image: PSQL,
       },
       {
         name: "MongoDB",
-        image:
-          "https://drive.google.com/file/d/1RTaPYX5vTh9dzAtaK5siS1g8SAtQrR0A/view?usp=drive_link",
+        image: MongoDB,
       },
       {
         name: "Firebase",
-        image:
-          "https://drive.google.com/file/d/1pzhzd3zDmv9rPUTWYfX1jtMGVs0sHND4/view?usp=drive_link",
+        image: Firebase,
       },
       {
         name: "Axios",
-        image:
-          "https://drive.google.com/file/d/1uoaV8HXCY8is4VjQf7OimkcHqpB8TI4l/view?usp=drive_link",
+        image: Axios,
       },
       {
         name: "Validate.js",
-        image:
-          "https://drive.google.com/file/d/1lDveVL4VIO1wRFGufzpmITUVyX4YLTs2/view?usp=drive_link",
+        image: ValidateJS,
       },
     ],
   },
@@ -110,23 +118,23 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://drive.google.com/file/d/1o3hfC1NwWQ4I0foKg4AGZOil-sfode5M/view?usp=drive_link",
+        image: Git,
       },
       {
         name: "GitHub",
-        image:
-          "https://drive.google.com/file/d/1roGCJhBY_92nOfHmawlO8uFB99adjRYe/view?usp=drive_link",
+        image: GitHub,
       },
       {
         name: "Netlify",
-        image:
-          "https://drive.google.com/file/d/1NUMlrLbb8IS2-bHxjHuCWpjRF3Wov0VL/view?usp=drive_link",
+        image: Netlify,
       },
       {
         name: "Figma",
-        image:
-          "https://drive.google.com/file/d/1oRKBCnTTZgXzdMpIrVgMQfUsYarNOY0l/view?usp=drive_link",
+        image: Figma,
+      },
+      {
+        name: "Cloudflare",
+        image: CloudFlare,
       },
     ],
   },

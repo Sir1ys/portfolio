@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="h-screen flex flex-col justify-between">
+      <main className="flex flex-col justify-between items-center gap-8">
         <AboutSection />
         <SkillsSection />
         <EducationSection />
