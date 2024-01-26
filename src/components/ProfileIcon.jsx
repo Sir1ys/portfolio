@@ -22,7 +22,7 @@ export default function (props) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-32 p-2 flex items-center justify-center gap-2 text-white border border-emerald-300 cursor-pointer rounded-xl hover:bg-emerald-700 active:bg-emerald-900"
+      className="w-26 md:w-32 p-2 flex items-center justify-center gap-2 text-white border border-emerald-300 cursor-pointer rounded-xl hover:bg-emerald-700 active:bg-emerald-900"
     >
       {componentToRender}
       {text}

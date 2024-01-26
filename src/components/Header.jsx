@@ -26,7 +26,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="py-10 bg-emerald-800 border-b-4 border-emerald-400 flex justify-center">
+    <header className="fixed w-full py-10 bg-emerald-800 border-b-4 border-emerald-400 flex justify-center z-50">
       <div className="w-11/12 xl:w-9/12 px-8 md:flex md:flex-row md:justify-between">
         <div className="flex items-center gap-2 text-emerald-100 hover:text-emerald-200">
           <PublicIcon />
