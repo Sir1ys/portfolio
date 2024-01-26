@@ -4,7 +4,7 @@ export default function EducationArticle({ id, img, school, date, desc }) {
   return (
     <article
       key={id}
-      className="flex flex-col gap-4 p-4 w-11/12 xl:w-8/12 border-r-2 border-emerald-300  text-emerald-50"
+      className="flex flex-col gap-4 p-4 border-r-2 border-emerald-300 text-emerald-50"
     >
       <span className="flex gap-4 items-center">
         <img

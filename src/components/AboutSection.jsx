@@ -13,7 +13,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="w-11/12 xl:w-8/12 text-center flex items-center justify-between gap-4 p-8 flex-col md:flex-row border-b-4 border-emerald-700"
+      className="w-11/12 xl:w-9/12 text-center flex items-center justify-between gap-4 p-8 flex-col md:flex-row border-b-4 border-emerald-700"
     >
       <div className="flex-1 order-last md:order-first flex flex-col gap-4 text-center md:text-left">
         <h2 className="text-emerald-50 font-bold text-5xl tracking-wider">
@@ -32,7 +32,7 @@ export default function AboutSection() {
       <img
         src={MyPicture}
         alt="This is the picture of me."
-        className="w-72 h-72 rounded-full shadow-2xl border-2 border-emerald-50"
+        className="w-64 h-64 xl:w-72 xl:h-72 rounded-full shadow-2xl border-2 border-emerald-50"
       />
     </section>
   );

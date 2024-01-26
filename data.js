@@ -25,6 +25,10 @@ import Netlify from "./src/images/others/Netlify.png";
 
 import Northcoders from "./src/images/education/northcoders.jpeg";
 
+import CollubHub from "./src/images/project-pictures/collab-hub-pic.png";
+import Junket from "./src/images/project-pictures/junket-pic.jpeg";
+import NcNews from "./src/images/project-pictures/nc-news-pic.png";
+
 export const bio = {
   name: "Oleksandr Korovii",
   roles: ["Full Stack Developer"],
@@ -159,20 +163,18 @@ export const projects = [
     date: "Nov 2023 - Jan 2024",
     description:
       "a collaborative project with a friend aimed at addressing the challenge developers face in finding the right team members for their projects.",
-    image:
-      "https://drive.google.com/file/d/1xj5buHWTI2v9I5tUNaMq4m5AxIIbxV33/view?usp=drive_link",
-    tags: {
-      backEnd: [
-        "Axios",
-        "Postgresql",
-        "Node Js",
-        "Express Js",
-        "Jest",
-        "Javascript",
-        "TypeScript",
-      ],
-      frontEnd: ["React", "TypeScript", "Tailwind", "Axios"],
-    },
+    image: CollubHub,
+    skills: [
+      "Axios",
+      "Postgresql",
+      "Node Js",
+      "Express Js",
+      "Jest",
+      "Javascript",
+      "TypeScript",
+      "React",
+      "Tailwind",
+    ],
     category: "back-end & front-end",
     github_be: "https://github.com/JDean8/collab-hub-be",
     github_fe: "https://github.com/Sir1ys/collab-hub-fe",
@@ -186,21 +188,20 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "a group project to address the challenge of solo travel. Our aim was to create a mobile app that makes it easier to find friends and events based on your destination.",
-    image:
-      "https://drive.google.com/file/d/1T3tzTIemU2LuNq4uhT2Ma4KVlrJ60YcF/view?usp=drive_link",
-    tags: {
-      backEnd: [
-        "Supertest",
-        "Validate.js",
-        "Axios",
-        "Postgresql",
-        "Node Js",
-        "Express Js",
-        "Jest",
-        "Javascript",
-      ],
-      frontEnd: ["React Native", "Expo Go", "Axios", "Firebase"],
-    },
+    image: Junket,
+    skills: [
+      "Supertest",
+      "Validate.js",
+      "Postgresql",
+      "Node Js",
+      "Express Js",
+      "Jest",
+      "Javascript",
+      "React Native",
+      "Expo Go",
+      "Axios",
+      "Firebase",
+    ],
     category: "back-end & front-end",
     github_be: "https://github.com/JDean8/codecrafters-be",
     github_fe: "https://codecrafters-9qyn.onrender.com/api",
@@ -214,20 +215,19 @@ export const projects = [
     date: "Sep 2023 - Oct 2023",
     description:
       "a web application that I developed independently. It is designed for individuals to read articles and engage in discussions with others.",
-    image:
-      "https://drive.google.com/file/d/1jLvbuVXpRF7NVowiFsIQj9H8vtthyg7Z/view?usp=drive_link",
-    tags: {
-      backEnd: [
-        "Supertest",
-        "Axios",
-        "Postgresql",
-        "Node Js",
-        "Express Js",
-        "Jest",
-        "Javascript",
-      ],
-      frontEnd: ["React", "MUI", "Axios", "Sass"],
-    },
+    image: NcNews,
+    skills: [
+      "Supertest",
+      "Postgresql",
+      "Node Js",
+      "Express Js",
+      "Jest",
+      "Javascript",
+      "React",
+      "MUI",
+      "Axios",
+      "Sass",
+    ],
     category: "back-end & front-end",
     github_be: "https://github.com/Sir1ys/back-end-news",
     github_fe: "https://back-end-news.onrender.com/api",

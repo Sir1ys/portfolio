@@ -13,8 +13,8 @@ function App() {
       <main className="flex flex-col justify-between items-center gap-8">
         <AboutSection />
         <SkillsSection />
-        <EducationSection />
         <ProjectsSection />
+        <EducationSection />
       </main>
       <Footer />
     </>
