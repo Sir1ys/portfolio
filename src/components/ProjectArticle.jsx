@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "./ProfileModal";
+import Modal from "./ProjectModal";
 
 export default function ProjectArticle(project) {
   const { title, date, description, image } = project;
