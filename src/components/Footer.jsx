@@ -4,8 +4,8 @@ import { icons } from "./AboutSection";
 
 export default function Footer() {
   return (
-    <div className="bg-emerald-800 border-t-4 border-emerald-400 flex flex-col items-center justify-center gap-6 p-4">
-      <h2 className="font-bold text-3xl text-emerald-100 tracking-widest">
+    <div className="p-4 flex flex-col items-center justify-center gap-6 border-t-4 border-emerald-400">
+      <h2 className="text-emerald-100 text-3xl font-bold tracking-widest">
         Oleksandr Korovii
       </h2>
       <span className="flex gap-4">

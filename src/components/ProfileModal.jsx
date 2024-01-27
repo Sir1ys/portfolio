@@ -33,7 +33,7 @@ export default function Modal({ active, setActive, project }) {
             src={image}
             alt={`The picture of ${title} project.`}
           />
-          <div className="flex flex-col justify-center items-center gap-3 p-4">
+          <div className="p-4 flex flex-col justify-center items-center gap-3">
             <h3 className="font-semibold tracking-wider text-2xl">{title}</h3>
             <span>{date}</span>
             <ul className="flex gap-2 flex-wrap justify-center items-center">
@@ -41,7 +41,7 @@ export default function Modal({ active, setActive, project }) {
                 return (
                   <li
                     key={skill.name}
-                    className="flex flex-row justify-center items-center p-4 border-2 border-emerald-500 w-16 h-16 rounded-md  cursor-pointer bg-gray-50"
+                    className="w-16 h-16 p-4 bg-gray-50 flex flex-row justify-center items-center border-2 border-emerald-500 rounded-md cursor-pointer "
                   >
                     {skill.image}
                   </li>
@@ -57,7 +57,7 @@ export default function Modal({ active, setActive, project }) {
                       href={link.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cursor-pointer text-sky-600 p-2 border rounded-xl border-sky-600 hover:bg-sky-200 hover:text-sky-800"
+                      className="p-2 text-sky-600 hover:text-sky-800 border border-sky-600 rounded-xl hover:bg-sky-200 cursor-pointer "
                     >
                       {link.name}
                     </a>

@@ -5,10 +5,10 @@ import { skills } from "../../data";
 export default function SkillsSection() {
   return (
     <section id="skills" className="w-11/12 xl:w-9/12 text-center p-8">
-      <h2 className="font-semibold text-white text-4xl tracking-widest mb-4">
+      <h2 className="mb-4 text-white text-4xl font-semibold tracking-widest">
         Skills
       </h2>
-      <div className="flex flex-wrap gap-8 flex-col xl:flex-row">
+      <div className="flex flex-wrap flex-col xl:flex-row  gap-8 ">
         {skills.map((skillsInfo, index) => {
           return (
             <SkillsBox

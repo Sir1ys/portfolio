@@ -13,12 +13,12 @@ export const links = [
     path: "#skills",
   },
   {
-    text: "Education",
-    path: "#education",
-  },
-  {
     text: "Projects",
     path: "#projects",
+  },
+  {
+    text: "Education",
+    path: "#education",
   },
 ];
 
@@ -26,31 +26,31 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed w-full py-10 bg-emerald-800 border-b-4 border-emerald-400 flex justify-center z-50">
+    <header className="fixed w-full py-10 flex justify-center  bg-emerald-800 border-b-4 border-emerald-400 z-50">
       <div className="w-11/12 xl:w-9/12 px-8 md:flex md:flex-row md:justify-between">
         <div className="flex items-center gap-2 text-emerald-100 hover:text-emerald-200">
           <PublicIcon />
-          <a href={links[0].path} className="font-semibold text-2xl">
+          <a href={links[0].path} className="text-2xl font-semibold">
             Portfolio
           </a>
         </div>
         <nav>
           <span
-            className="absolute right-8 top-9 cursor-pointer md:hidden"
+            className="absolute right-8 top-9 cursor-pointer md:hidden text-emerald-100"
             onClick={() => {
               setOpen(!open);
             }}
           >
             {!open ? (
-              <MenuIcon fontSize="large" className="text-emerald-100" />
+              <MenuIcon fontSize="large" />
             ) : (
-              <CloseIcon fontSize="large" className="text-emerald-100" />
+              <CloseIcon fontSize="large" />
             )}
           </span>
           <ul
-            className={`flex gap-8 absolute md:static bg-emerald-50 md:bg-inherit md:z-auto z-[2] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in ${
+            className={`w-full md:w-auto md:pl-0 pl-9 absolute md:static left-0 flex gap-8 bg-emerald-50 md:bg-inherit transition-all duration-300 ease-in ${
               open
-                ? "bg-emerald-900 top-25 opacity-100 border-y-4 border-emerald-700 h-screen overflow-hidden flex-col mt-10 pt-4"
+                ? "h-screen mt-10 pt-4 top-25 bg-emerald-900 opacity-100 flex-col border-y-4 border-emerald-700 overflow-hidden "
                 : "left-[-490px] opacity-0"
             } md:opacity-100 md:border-none`}
           >
@@ -59,7 +59,7 @@ export default function Header() {
                 <li
                   key={index}
                   className={
-                    "font-semibold text-2xl text-emerald-100 hover:text-emerald-200 hover:underline hover:underline-offset-4"
+                    "text-emerald-100 hover:text-emerald-200 text-2xl font-semibold hover:underline hover:underline-offset-4"
                   }
                   onClick={() => setOpen(false)}
                 >

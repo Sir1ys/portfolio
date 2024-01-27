@@ -8,13 +8,11 @@ export default function (props) {
   let componentToRender;
 
   if (text === "GitHub") {
-    componentToRender = <GitHubIcon fontSize="large" className="text-white" />;
+    componentToRender = <GitHubIcon fontSize="large" />;
   } else if (text === "CV") {
-    componentToRender = <ArticleIcon fontSize="large" className="text-white" />;
+    componentToRender = <ArticleIcon fontSize="large" />;
   } else {
-    componentToRender = (
-      <LinkedInIcon fontSize="large" className="text-white" />
-    );
+    componentToRender = <LinkedInIcon fontSize="large" />;
   }
 
   return (
@@ -22,7 +20,7 @@ export default function (props) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-26 md:w-32 p-2 flex items-center justify-center gap-2 text-white border border-emerald-300 cursor-pointer rounded-xl hover:bg-emerald-700 active:bg-emerald-900"
+      className="w-26 md:w-32 p-2 text-white hover:bg-emerald-700 active:bg-emerald-900 flex items-center justify-center gap-2 border border-emerald-300 rounded-xl cursor-pointer"
     >
       {componentToRender}
       {text}
