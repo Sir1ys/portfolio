@@ -684,10 +684,23 @@ export const projects = [
       "Tailwind",
     ],
     category: "back-end & front-end",
-    github_be: "https://github.com/JDean8/collab-hub-be",
-    github_fe: "https://github.com/Sir1ys/collab-hub-fe",
-    webapp_be: "https://collub-hub.onrender.com/api/users",
-    webapp_fe: "https://collub-hub.onrender.com/api/users",
+    links: [
+      {
+        name: "Back-end Hosted",
+        link: "https://github.com/JDean8/collab-hub-be",
+        type: "GH",
+      },
+      {
+        name: "Backend Hosted",
+        link: "https://collub-hub.onrender.com/api/users",
+        type: "Web",
+      },
+      {
+        name: "Front-end GitHub",
+        link: "https://github.com/Sir1ys/collab-hub-fe",
+        type: "GH",
+      },
+    ],
     stage: "in progress",
   },
   {
@@ -711,10 +724,28 @@ export const projects = [
       "Firebase",
     ],
     category: "back-end & front-end",
-    github_be: "https://github.com/JDean8/codecrafters-be",
-    github_fe: "https://codecrafters-9qyn.onrender.com/api",
-    webapp_be: "https://github.com/Sir1ys/codecrafters-fe",
-    webapp_fe: "https://northcoders.com/project-phase/junket/",
+    links: [
+      {
+        name: "Back-end GitHub",
+        link: "https://github.com/JDean8/codecrafters-be",
+        type: "GH",
+      },
+      {
+        name: "Backend Hosted",
+        link: "https://codecrafters-9qyn.onrender.com/api",
+        type: "Web",
+      },
+      {
+        name: "Front-end GitHub",
+        link: "https://github.com/Sir1ys/codecrafters-fe",
+        type: "GH",
+      },
+      {
+        name: "Front-end Presentation",
+        link: "https://northcoders.com/project-phase/junket/",
+        type: "Web",
+      },
+    ],
     stage: "finished",
   },
   {
@@ -737,10 +768,28 @@ export const projects = [
       "Sass",
     ],
     category: "back-end & front-end",
-    github_be: "https://github.com/Sir1ys/back-end-news",
-    github_fe: "https://back-end-news.onrender.com/api",
-    webapp_be: "https://github.com/Sir1ys/fe-nc-news",
-    webapp_fe: "https://calm-gelato-6eb82e.netlify.app/",
+    links: [
+      {
+        name: "Back-end GitHub",
+        link: "https://github.com/Sir1ys/back-end-news",
+        type: "GH",
+      },
+      {
+        name: "Backend Hosted",
+        link: "https://back-end-news.onrender.com/api",
+        type: "Web",
+      },
+      {
+        name: "Front-end GitHub",
+        link: "https://github.com/Sir1ys/fe-nc-news",
+        type: "GH",
+      },
+      {
+        name: "Front-end Hosted",
+        link: "https://calm-gelato-6eb82e.netlify.app/",
+        type: "Web",
+      },
+    ],
     stage: "finished",
   },
 ];

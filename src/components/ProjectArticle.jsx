@@ -1,19 +1,8 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
 
-export default function ProjectArticle({
-  title,
-  date,
-  description,
-  image,
-  skills,
-  category,
-  github_be,
-  github_fe,
-  webapp_be,
-  webapp_fe,
-  stage,
-}) {
+export default function ProjectArticle(project) {
+  const { title, date, description, image } = project;
   const [active, setActive] = useState(false);
 
   return (
@@ -32,9 +21,7 @@ export default function ProjectArticle({
         <span className="text-lime-50 p-2">{description}</span>
       </article>
 
-      <Modal active={active} setActive={setActive}>
-        <p>Hi</p>
-      </Modal>
+      <Modal active={active} setActive={setActive} project={project} />
     </>
   );
 }
