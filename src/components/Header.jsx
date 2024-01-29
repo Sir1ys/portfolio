@@ -20,6 +20,10 @@ export const links = [
     text: "Education",
     path: "#education",
   },
+  {
+    text: "Contact",
+    path: "#contact",
+  },
 ];
 
 export default function Header() {
