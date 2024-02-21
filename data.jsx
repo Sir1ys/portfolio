@@ -686,12 +686,12 @@ export const projects = [
     category: "back-end & front-end",
     links: [
       {
-        name: "Back-end Hosted",
+        name: "Back-end GitHub",
         link: "https://github.com/JDean8/collab-hub-be",
         type: "GH",
       },
       {
-        name: "Backend Hosted",
+        name: "Back-end Hosted",
         link: "https://collub-hub.onrender.com/api/users",
         type: "Web",
       },
@@ -699,6 +699,11 @@ export const projects = [
         name: "Front-end GitHub",
         link: "https://github.com/Sir1ys/collab-hub-fe",
         type: "GH",
+      },
+      {
+        name: "Front-end Hosted",
+        link: "https://collub-hub.netlify.app/",
+        type: "Web",
       },
     ],
     stage: "in progress",
@@ -731,7 +736,7 @@ export const projects = [
         type: "GH",
       },
       {
-        name: "Backend Hosted",
+        name: "Back-end Hosted",
         link: "https://codecrafters-9qyn.onrender.com/api",
         type: "Web",
       },
@@ -775,7 +780,7 @@ export const projects = [
         type: "GH",
       },
       {
-        name: "Backend Hosted",
+        name: "Back-end Hosted",
         link: "https://back-end-news.onrender.com/api",
         type: "Web",
       },
